@@ -26,14 +26,13 @@
 
 #### `npm install`
 
-### Insert Your Google API Key:
+### Insert Your Google API and Context Key:
  #### `Step1:` Rename .env_sample to .env
  #### `Step2:` Replace <YOUR GOOGLE API KEY HERE> in .env file with Yours
+ #### `Step3:` Replace CONTEXT_KEY = <YOUR CONTEXT API KEY HERE> in .env file with Yours
  #### You can get your API from : `https://developers.google.com/custom-search/v1/using_rest`
-  
-### Insert Your Google Context_Key:
- #### `Step1:` Replace CONTEXT_KEY = "e9e3e0fdde0f32093"; in useGoogleSearch.js file with Yours
  #### You can get your CONTEXT_KEY from : `https://cse.google.com/cse/create/new`
+
 
 ### Available Scripts
 
