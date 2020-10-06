@@ -21,7 +21,7 @@ function SearchPage() {
     const { data } = useGoogleSearch(term);
 
     //Mock API Call
-    // const data = Response;
+    const data = Response;
 
     console.log(data);
     return (
