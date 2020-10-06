@@ -8,7 +8,7 @@ import { useStateValue } from './StateProvider'
 
 
 function Search({ hideButtons = false }) {
-    const [{}, dispatch] = useStateValue();
+    const [ , dispatch] = useStateValue();
     const [input, setInput] = useState('');
     const history = useHistory();
 
