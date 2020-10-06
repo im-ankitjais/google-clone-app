@@ -32,8 +32,8 @@
  #### You can get your API from : `https://developers.google.com/custom-search/v1/using_rest`
   
 ### Insert Your Google Context_Key:
- ## `Step1:` Replace CONTEXT_KEY = "e9e3e0fdde0f32093"; in useGoogleSearch.js file with Yours
- ## You can get your CONTEXT_KEY from : `https://cse.google.com/cse/create/new`
+ #### `Step1:` Replace CONTEXT_KEY = "e9e3e0fdde0f32093"; in useGoogleSearch.js file with Yours
+ #### You can get your CONTEXT_KEY from : `https://cse.google.com/cse/create/new`
 
 ### Available Scripts
 
