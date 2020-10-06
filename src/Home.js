@@ -12,8 +12,8 @@ function Home() {
                     
                 </div>
                 <div className="home_headerRight">
-                    <Link to="/gmail">Gmail</Link>
-                    <Link to="/images">Images</Link>
+                    <Link to="/">Gmail</Link>
+                    <Link to="/">Images</Link>
                     <AppIcon />
                     <Avatar />
                 </div>

@@ -13,7 +13,6 @@ import  MoreVertIcon from '@material-ui/icons/MoreVert'
 
 //import Response from './response'
 
-
 function SearchPage() {
     const [{ term }] = useStateValue();
 
@@ -38,35 +37,35 @@ function SearchPage() {
                         <div className="searchPage_optionsLeft">
                             <div className="searchPage_option">
                                 <SearchIcon />
-                                <Link to="/all">All</Link>
+                                <Link to="/search">All</Link>
                             </div>
                             <div className="searchPage_option">
                                 <DescriptionIcon />
-                                <Link to="/news">News</Link>
+                                <Link to="/search">News</Link>
                             </div>
                             <div className="searchPage_option">
                                 <ImageIcon />
-                                <Link to="/images">Images</Link>
+                                <Link to="/search">Images</Link>
                             </div>
                             <div className="searchPage_option">
                                 <LocalOfferIcon />
-                                <Link to="/shopping">Shopping</Link>
+                                <Link to="/search">Shopping</Link>
                             </div>
                             <div className="searchPage_option">
                                 <RoomIcon />
-                                <Link to="/maps">Maps</Link>
+                                <Link to="/search">Maps</Link>
                             </div>
                             <div className="searchPage_option">
                                 <MoreVertIcon />
-                                <Link to="/more">more</Link>
+                                <Link to="/search">more</Link>
                             </div>
                         </div>
                         <div className="searchPage_optionsRight">
                             <div className="searchPage_option">
-                                <Link to="/settings">Settings</Link>
+                                <Link to="/search">Settings</Link>
                             </div>
                             <div className="searchPage_option">
-                                <Link to="/tools">Tools</Link>
+                                <Link to="/search">Tools</Link>
                             </div>
                         </div>
                     
